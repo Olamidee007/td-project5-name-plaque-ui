@@ -1,0 +1,16 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: black;
+    color: beige;
+}
+
+.wrapper{
+    text-align: center;
+    padding: 5px;
+    margin: 100px;
+}
+
+input{
+    border-radius: 50px;
+}
