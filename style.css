@@ -1,16 +1,49 @@
 *{
     box-sizing: border-box;
     font-family: 'Courier New', Courier, monospace;
-    background-color: black;
-    color: beige;
 }
 
 .wrapper{
-    text-align: center;
-    padding: 5px;
-    margin: 100px;
+    background-color: rgba(0, 0, 0, 0.726);
+    padding: 200px;
 }
 
+.apply{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 input{
-    border-radius: 50px;
+    background-color: transparent;
+    color: goldenrod;
+}
+.instinct{
+    background-color: white;
+    border: solid hotpink 30px;
+    width: 300px;
+    margin-top: 20px;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container{
+    display: flex;
+}
+
+.tutor{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.OG{
+    background-color: white;
+    color: teal;
+    margin-left: 100px;
+    padding: 10px;
+}
+button{
+    background-color: teal;
+    color: white;
+    margin-left: 100px;
+    margin-top: 30px;
+    padding: 30px;
+    border: 10px;
 }
