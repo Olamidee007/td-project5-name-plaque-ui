@@ -3,8 +3,11 @@
     font-family: 'Courier New', Courier, monospace;
 }
 
-.wrapper{
+body{
     background-color: rgba(0, 0, 0, 0.726);
+}
+
+.wrapper{
     padding: 200px;
 }
 
@@ -12,19 +15,66 @@
     color: white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-input{
-    background-color: transparent;
+.guess-it{
+    background-color: gray;
     color: goldenrod;
+    height: 35px;
+    position: relative;
+    width: 200px;
 }
+.guess-placeholder{
+    position: absolute;
+    left: 14.9rem;
+    top: 20rem;
+}
+
+.recycle{
+  width: 20px;
+  height: 20px;
+  background: rgb(54, 7, 54);
+  border-radius: 50%;
+  border: 3.5px solid rgb(157, 98, 157);
+  position: absolute;
+  left: 14.7rem;
+  top: 24rem;
+  z-index: 5;
+}
+
+.recyclart{
+    width: 20px;
+    height: 20px;
+    background: rgb(54, 7, 54);
+    border-radius: 50%;
+    border: 3.5px solid rgb(157, 98, 157);
+    position: absolute;
+    left: 27.7rem;
+    top: 24rem;
+    z-index: 5;
+      
+}
+
 .instinct{
     background-color: white;
-    border: solid hotpink 30px;
-    width: 300px;
+    border: solid hotpink 15px;
+    height: 150px;
+    width: 280px;
     margin-top: 20px;
     padding: 10px;
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
+    position: relative;
 }
+
+.hub{
+    box-shadow: 0px 15px 30px -7px rgba(0, 0, 0, 0.486);
+    background-color: white;
+    position: absolute;
+    top: 25.7rem;
+    right: 54.9rem;
+    width: 248px;
+    text-align: center;
+}
+
 
 .container{
     display: flex;
@@ -34,16 +84,31 @@ input{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .OG{
-    background-color: white;
+    background-color: whitesmoke;
     color: teal;
     margin-left: 100px;
-    padding: 10px;
+    height: 54px;
+    width: 100px;
+    /* padding: 10px; */
+    position: absolute;
+    right: 46rem;
+    top: 370px;
 }
+
+
 button{
     background-color: teal;
     color: white;
     margin-left: 100px;
-    margin-top: 30px;
-    padding: 30px;
+    margin-top: 80px;
+    padding: 20px;
     border: 10px;
+    position: absolute;
+    right: 45.7rem;
+    top: 380px;
+}
+
+footer{
+    text-align: center;
+    color: limegreen;
 }
