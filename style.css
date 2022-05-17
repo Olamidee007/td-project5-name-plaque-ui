@@ -1,6 +1,6 @@
 *{
     box-sizing: border-box;
-    font-family: 'Courier New', Courier, monospace;
+    /* font-family: 'Courier New', Courier, monospace; */
 }
 
 body{
@@ -16,8 +16,8 @@ body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .guess-it{
-    background-color: gray;
-    color: goldenrod;
+    background-color: gray;;
+    color: black;
     height: 35px;
     position: relative;
     width: 200px;
@@ -26,6 +26,7 @@ body{
     position: absolute;
     left: 14.9rem;
     top: 20rem;
+    color: goldenrod;
 }
 
 .recycle{
@@ -87,6 +88,7 @@ body{
     background-color: whitesmoke;
     color: teal;
     margin-left: 100px;
+    text-align: center;
     height: 54px;
     width: 100px;
     /* padding: 10px; */
